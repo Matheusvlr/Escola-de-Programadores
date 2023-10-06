@@ -1,0 +1,25 @@
+:root{
+    --purple-200: #A369ff;
+    --purple-300: #8733ff;
+
+    --grey-300: #4f4f4f;
+
+    --white-300: #FFFFFF;
+
+}
+
+body{
+    margin: 0;
+}
+
+.menuPrincipal{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botaoMenuPrincipal{
+    color: var(--white-300);
+    text-decoration: none;
+}
