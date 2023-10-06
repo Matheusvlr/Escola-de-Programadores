@@ -12,7 +12,7 @@ body{
     margin: 0;
 }
 
-.menuPrincipal{
+.menuPrincipalBotoes{
     background: black;
     display: flex;
     align-items: center;
