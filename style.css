@@ -3,10 +3,11 @@
     --purple-300: #8733ff;
 
     --grey-300: #4F4F4F;
+    
 
     --white-300: #FFFFFF;
-
 }
+
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -18,15 +19,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1,5;
+    padding-top: 1.0px;
+    padding-block: 1.0px;
 }
 
 .botaoMenuPrincipal{
     color: var(--white-300);
     text-decoration: none;
+      
 }
+
 @media (max-width: 767px){
     .menuPrincipal{
         flex-direction: column;
     }
 }
+
