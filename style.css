@@ -31,6 +31,46 @@
       
 }
 
+.botaoMenuPrincipal {
+    background: #0E0E0E;
+    background-image: -webkit-linear-gradient(top, #0E0E0E, #35383E);
+    background-image: -moz-linear-gradient(top, #0E0E0E, #35383E);
+    background-image: -ms-linear-gradient(top, #0E0E0E, #35383E);
+    background-image: -o-linear-gradient(top, #0E0E0E, #35383E);
+    background-image: -webkit-gradient(to bottom, #0E0E0E, #35383E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #040404 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .botaoMenuPrincipal:hover {
+    border: solid #02132c 1px;
+    background: #2D2D2E;
+    background-image: -webkit-linear-gradient(top, #2D2D2E, #0b0f14);
+    background-image: -moz-linear-gradient(top, #2D2D2E, #0b0f14);
+    background-image: -ms-linear-gradient(top, #2D2D2E, #0b0f14);
+    background-image: -o-linear-gradient(top, #2D2D2E, #0b0f14);
+    background-image: -webkit-gradient(to bottom, #2D2D2E, #0b0f14);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
 @media (max-width: 767px){
     .menuPrincipal{
         flex-direction: column;
