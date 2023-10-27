@@ -23,12 +23,13 @@
     justify-content: space-evenly;
     padding-top: 1.0px;
     padding-block: 1.0px;
+    float: center;
 }
 
 .botaoMenuPrincipal{
     color: var(--white-300);
     text-decoration: none;
-      
+         
 }
 
 .botaoMenuPrincipal {
@@ -43,8 +44,8 @@
     border-radius: 20px;
     color: #FFFFFF;
     font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 15px;
+    font-weight: 80;
     padding: 15px;
     -webkit-box-shadow: 1px 1px 20px 0 #000000;
     -moz-box-shadow: 1px 1px 20px 0 #000000;
