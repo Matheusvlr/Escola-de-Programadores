@@ -12,13 +12,21 @@
 .body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background-color: black;
-    color: white;
+}
+
+.col-8 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .menuPrincipal{
-    background: black;
-    display: flex;
+    background: white;
+    display:flex ;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 1.0px;
@@ -33,45 +41,43 @@
 }
 
 .botaoMenuPrincipal {
-    background: #0E0E0E;
-    background-image: -webkit-linear-gradient(top, #0E0E0E, #35383E);
-    background-image: -moz-linear-gradient(top, #0E0E0E, #35383E);
-    background-image: -ms-linear-gradient(top, #0E0E0E, #35383E);
-    background-image: -o-linear-gradient(top, #0E0E0E, #35383E);
-    background-image: -webkit-gradient(to bottom, #0E0E0E, #35383E);
+    background: #FFFFFF;
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    color: #FFFFFF;
-    font-family: 'Open Sans';
+    color: #000000;
+    font-family: Open Sans;
     font-size: 15px;
-    font-weight: 80;
-    padding: 15px;
-    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-    -moz-box-shadow: 1px 1px 20px 0 #000000;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 1px 1px 20px #000000;
-    border: solid #040404 1px;
+    font-weight: 600;
+    padding: 7px;
+    -webkit-box-shadow: 4px 11px 20px 0 #FFFFFF;
+    -moz-box-shadow: 4px 11px 20px 0 #FFFFFF;
+    box-shadow: 4px 11px 20px 0 #FFFFFF;
+    text-shadow: -1px 0 20px #FFFFFF;
+    border: solid #000000 3px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
  }
- 
- .botaoMenuPrincipal:hover {
-    border: solid #02132c 1px;
-    background: #2D2D2E;
-    background-image: -webkit-linear-gradient(top, #2D2D2E, #0b0f14);
-    background-image: -moz-linear-gradient(top, #2D2D2E, #0b0f14);
-    background-image: -ms-linear-gradient(top, #2D2D2E, #0b0f14);
-    background-image: -o-linear-gradient(top, #2D2D2E, #0b0f14);
-    background-image: -webkit-gradient(to bottom, #2D2D2E, #0b0f14);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+ .botaoMenuPrincipal:hover  {
+    border: solid #000000 2px;
+    background: #F9F9F9;
+    background-image: -webkit-linear-gradient(top, #F9F9F9, #000000);
+    background-image: -moz-linear-gradient(top, #F9F9F9, #000000);
+    background-image: -ms-linear-gradient(top, #F9F9F9, #000000);
+    background-image: -o-linear-gradient(top, #F9F9F9, #000000);
+    background-image: -webkit-gradient(to bottom, #F9F9F9, #000000);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
     text-decoration: none;
  }
-
 @media (max-width: 767px){
     .menuPrincipal{
         flex-direction: column;
