@@ -25,12 +25,12 @@
 }
 
 .menuPrincipal{
-    background: white;
+    background: black;
     display:flex ;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 1.0px;
-    padding-block: 1.0px;
+    padding-top: none;
+    padding-block: none;
     float: center;
 }
 
