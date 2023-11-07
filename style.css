@@ -83,3 +83,18 @@
         flex-direction: column;
     }
 }
+.logo-move{
+    display: flex;
+    justify-content: center;
+}
+.imagemMove{
+    border-radius: 50%;
+}
+.meuCurriculo{
+    margin-inline: 20%;
+}
+.imagemMatheus{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
