@@ -154,9 +154,10 @@
     align-items: center;
     text-align: center;
 }
-.cabecalhoCarrosel{
-display: flex;
-justify-content: center;
+
+.cabecalhoCarrosel {
+    display: flex;
+    justify-content: center;
 }
 
 footer.rodaPe {
