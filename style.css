@@ -93,6 +93,15 @@
     text-align: center;
 }
 
+.col-6 {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    /* Altura total da janela de visualização */
+}
+
 .container-sobre-mim {
     display: flex;
     flex-direction: column;
@@ -144,6 +153,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.cabecalhoCarrosel{
+display: flex;
+justify-content: center;
 }
 
 footer.rodaPe {
