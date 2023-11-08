@@ -1,15 +1,15 @@
-:root{
+:root {
     --purple-200: #A269FF;
     --purple-300: #8733ff;
 
     --grey-300: #4F4F4F;
-    
+
 
     --white-300: #FFFFFF;
 }
 
 
-.body{
+.body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #535358;
@@ -27,9 +27,9 @@
     align-items: center;
 }
 
-.menuPrincipal{
+.menuPrincipal {
     background: black;
-    display:flex ;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-top: none;
@@ -37,10 +37,10 @@
     float: center;
 }
 
-.botaoMenuPrincipal{
+.botaoMenuPrincipal {
     color: var(--white-300);
     text-decoration: none;
-         
+
 }
 
 .botaoMenuPrincipal {
@@ -67,8 +67,9 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
- .botaoMenuPrincipal:hover  {
+}
+
+.botaoMenuPrincipal:hover {
     border: solid #1b1a1a 10px;
     background: #b4b1b1;
     background-image: -webkit-linear-gradient(top, #F9F9F9, #000000);
@@ -80,35 +81,73 @@
     -moz-border-radius: 30px;
     border-radius: 30px;
     text-decoration: none;
- }
-@media (max-width: 767px){
-    .menuPrincipal{
+}
+
+@media (max-width: 767px) {
+    .menuPrincipal {
         flex-direction: column;
     }
 }
-.logo-move{
+
+.logo-move {
     display: flex;
     justify-content: center;
 }
-.imagemMove{
+
+.imagemMove {
     border-radius: 50%;
 }
-.meuCurriculo{
+
+.imagemMove {
+    transition: transform .2s;
+    /* Animação suave */
+}
+
+.imagemMove:hover {
+    transform: scale(1.05);
+    /* (105% zoom) */
+}
+
+.meuCurriculo {
     margin-inline: 20%;
 }
-.imagemMatheus{
+
+.imagemMatheus {
     display: flex;
     justify-content: center;
     border-radius: 50%;
 }
+
+.imagemMatheus {
+    transition: transform .2s;
+    /* Animação suave */
+}
+
+.imagemMatheus:hover {
+    transform: scale(1.05);
+    /* (105% zoom) */
+}
+
 footer.rodaPe {
     display: flex;
-    justify-content:end;
-  }
-  
+    justify-content: end;
+}
+
+footer.rodaPe {
+    width: 40%;
+    /* Diminui a largura do rodapé para 40% da largura total */
+    margin: 0 auto;
+    /* Centraliza o rodapé */
+    padding: 20px;
+    /* Adiciona um pouco de espaço ao redor do conteúdo do rodapé */
+}
+
 .contatos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+}
+ul a {
+    color: inherit;
   }
