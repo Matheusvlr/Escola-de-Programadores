@@ -101,3 +101,14 @@
     justify-content: center;
     border-radius: 50%;
 }
+footer.rodaPe {
+    display: flex;
+    justify-content: center;
+  }
+  
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
