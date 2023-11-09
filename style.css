@@ -243,11 +243,3 @@ ul a {
 .slider>input:nth-child(2):checked~.slider-content {
     transform: translateX(-100%);
 }
-
-.slider>input:nth-child(3):checked~.slider-content {
-    transform: translateX(-200%);
-}
-
-.slider>input:nth-child(4):checked~.slider-content {
-    transform: translateX(-300%);
-}
